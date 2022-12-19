@@ -36,6 +36,7 @@ public abstract class AbstractTest {
     }
 
     public static WebDriver getDriver() {
+
         return driver;
     }
 }

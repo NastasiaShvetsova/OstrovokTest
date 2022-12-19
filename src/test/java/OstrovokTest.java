@@ -31,7 +31,7 @@ public class OstrovokTest extends AbstractTest {
 
         WebElement webElement2 = getDriver().findElement(By.xpath("//span[contains(.,'Зарегистрироваться')]"));
         webElement2.click();
-        Assertions.assertEquals("Зарегистрироваться",webElement2.getText());
+        Assertions.assertEquals("Зарегистрироваться", webElement2.getText());
 
         WebElement webElement3 = getDriver().findElement(By.name("email"));
         webElement3.click();
@@ -49,7 +49,7 @@ public class OstrovokTest extends AbstractTest {
 
         WebElement webElement2 = getDriver().findElement(By.cssSelector(".LanguageWidget-module__item--1yC8C:nth-child(1)"));
         webElement2.click();
-        Assertions.assertEquals("Ostrovok.ru — online hotel booking",getDriver().getTitle(),"Error language !");
+        Assertions.assertEquals("Ostrovok.ru — online hotel booking", getDriver().getTitle(), "Error language !");
     }
 
     @Test
@@ -108,5 +108,5 @@ public class OstrovokTest extends AbstractTest {
                 .perform();
         Assertions.assertEquals("Контакты", getDriver().getTitle(), "Не та страница");
     }
-    }
+}
 

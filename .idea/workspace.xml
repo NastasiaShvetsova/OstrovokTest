@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e656bfd0-e247-4830-a00e-644921b7b31a" name="Changes" comment="fixed in main">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OstrovokTest.java" afterDir="false" />
+    <list default="true" id="e656bfd0-e247-4830-a00e-644921b7b31a" name="Changes" comment="lesson5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FooterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PromocodePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FooterPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PromocodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OstrovokTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OstrovokTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,52 +56,52 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.OstrovokTest.WebsiteTranslationTest">
-    <configuration name="OstrovokTest.AuthorizationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LoginPageTest.AuthorizationTest">
+    <configuration name="FooterPageTest.footerContactButtonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ostrovok" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OstrovokTest" />
+      <option name="MAIN_CLASS_NAME" value="FooterPageTest" />
+      <option name="METHOD_NAME" value="footerContactButtonTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.AuthorizationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ostrovok" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginPageTest" />
       <option name="METHOD_NAME" value="AuthorizationTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OstrovokTest.ContactsButtonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest.RegistrationByEmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ostrovok" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OstrovokTest" />
-      <option name="METHOD_NAME" value="ContactsButtonTest" />
+      <option name="MAIN_CLASS_NAME" value="LoginPageTest" />
+      <option name="METHOD_NAME" value="RegistrationByEmailTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OstrovokTest.CurrencySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PromocodePage.SavePromocodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ostrovok" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OstrovokTest" />
-      <option name="METHOD_NAME" value="CurrencySearchTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OstrovokTest.SavePromocodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ostrovok" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OstrovokTest" />
+      <option name="MAIN_CLASS_NAME" value="PromocodePage" />
       <option name="METHOD_NAME" value="SavePromocodeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OstrovokTest.WebsiteTranslationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PromocodeTest.PromocodeSaveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ostrovok" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OstrovokTest" />
-      <option name="METHOD_NAME" value="WebsiteTranslationTest" />
+      <option name="MAIN_CLASS_NAME" value="PromocodeTest" />
+      <option name="METHOD_NAME" value="PromocodeSaveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OstrovokTest.WebsiteTranslationTest" />
-        <item itemvalue="JUnit.OstrovokTest.ContactsButtonTest" />
-        <item itemvalue="JUnit.OstrovokTest.CurrencySearchTest" />
-        <item itemvalue="JUnit.OstrovokTest.AuthorizationTest" />
-        <item itemvalue="JUnit.OstrovokTest.SavePromocodeTest" />
+        <item itemvalue="JUnit.LoginPageTest.AuthorizationTest" />
+        <item itemvalue="JUnit.PromocodeTest.PromocodeSaveTest" />
+        <item itemvalue="JUnit.PromocodePage.SavePromocodeTest" />
+        <item itemvalue="JUnit.LoginPageTest.RegistrationByEmailTest" />
+        <item itemvalue="JUnit.FooterPageTest.footerContactButtonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670436182905</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson5">
+      <created>1671201521587</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671201521587</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +156,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed in main" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed in main" />
+    <MESSAGE value="lesson5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson5" />
   </component>
 </project>
