@@ -1,10 +1,17 @@
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
 public class PromocodeTest extends AbstractTest {
 
     @Test
+    @DisplayName("Сохранение промокода в личном кабинете авторизованным пользователем")
+    @Description("Возможность сохранения промокода промокода в личном кабинете авторизованным пользователем")
+    @Severity(SeverityLevel.CRITICAL)
     void PromocodeSaveTest() {
         new MainPage(getDriver()).goToLoginPage();
         LoginPage loginPage = new LoginPage(getDriver());

@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class FooterPage extends AbstractPage {
     public FooterPage(WebDriver driver) {
+
         super(driver);
     }
 
