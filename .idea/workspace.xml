@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e656bfd0-e247-4830-a00e-644921b7b31a" name="Changes" comment="check lesson6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AbstractPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FooterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FooterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AbstractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FooterPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FooterPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PromocodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PromocodeTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="e656bfd0-e247-4830-a00e-644921b7b31a" name="Changes" comment="check lesson7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671459107517</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="check lesson7">
+      <created>1671653861226</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671653861226</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +159,7 @@
     <MESSAGE value="fixed in main" />
     <MESSAGE value="lesson5" />
     <MESSAGE value="check lesson6" />
-    <option name="LAST_COMMIT_MESSAGE" value="check lesson6" />
+    <MESSAGE value="check lesson7" />
+    <option name="LAST_COMMIT_MESSAGE" value="check lesson7" />
   </component>
 </project>
